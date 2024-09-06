@@ -1,8 +1,8 @@
-import Header from "../components/Header";
-import HeroSection from "../components/HeroSection";
-import FeatureSection from "../components/feature-section";
-import GetInTouch from "../components/get-in-touch";
-import Footer from "../components/Footer";
+import Header from "../components/LandingPage/Header";
+import HeroSection from "../components/LandingPage/HeroSection";
+import FeatureSection from "../components/LandingPage/feature-section";
+import GetInTouch from "../components/LandingPage/get-in-touch";
+import Footer from "../components/LandingPage/Footer";
 
 const LandingPage = () => {
   return (
