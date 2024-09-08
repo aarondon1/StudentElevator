@@ -1,5 +1,5 @@
 import Header from "../components/LandingPage/Header";
-import HeroSection from "../components/HeroSection";
+import HeroSection from "../components/LandingPage/HeroSection";
 import FeatureSection from "../components/LandingPage/feature-section";
 import GetInTouch from "../components/LandingPage/get-in-touch";
 import Footer from "../components/LandingPage/Footer";
