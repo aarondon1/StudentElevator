@@ -4,23 +4,23 @@ import PropTypes from "prop-types";
 const FeatureSection = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[127px] box-border gap-[17px] max-w-full text-center text-29xl text-darkslateblue font-poppins mq800:pb-[35px] mq800:box-border mq1350:pb-[54px] mq1350:box-border ${className}`}
+      className={`self-stretch flex flex-col items-center justify-start pt-0 px-0 pb-[127px] box-border gap-[17px] max-w-full text-center text-29xl text-darkslateblue font-poppins mq800:pb-[35px] mq1350:pb-[54px] ${className}`}
     >
-      <div className="w-[886px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
+      <div className="w-full flex flex-row items-center justify-center py-0 px-5 box-border max-w-full">
         <h1 className="m-0 relative text-inherit leading-[80px] font-semibold font-[inherit] mq800:text-19xl mq800:leading-[64px] mq450:text-10xl mq450:leading-[48px]">
           Our Tools and Features
         </h1>
       </div>
-      <div className="self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[13px] box-border max-w-full text-left text-lg text-lightsteelblue-200">
-        <div className="w-[1110px] flex flex-col items-start justify-start gap-[27px] max-w-full">
-          <div className="w-[595px] flex flex-row items-start justify-start py-0 px-[9px] box-border max-w-full">
-            <div className="flex-1 relative leading-[28px] inline-block max-w-full">
+      <div className="w-full flex flex-row items-center justify-center pt-0 px-5 pb-[13px] box-border max-w-full text-left text-lg text-lightsteelblue-200">
+        <div className="w-full max-w-[1110px] flex flex-col items-center justify-start gap-[27px]">
+          <div className="w-full max-w-[595px] flex flex-row items-center justify-center py-0 px-[9px] box-border">
+            <div className="flex-1 relative leading-[28px] inline-block">
               Further assist your learning and academic journey using our tools
               specifically designed for you
             </div>
           </div>
-          <div className="self-stretch flex flex-row items-start justify-start flex-wrap content-start gap-[30px] max-w-full text-center text-xl text-darkslateblue">
-            <div className="flex-1 rounded-xl bg-lightsteelblue-300 flex flex-col items-start justify-start pt-[50px] pb-[19px] pl-6 pr-[23px] box-border gap-[39px] min-w-[262px] max-w-full mq450:gap-[19px] mq450:pt-8 mq450:pb-5 mq450:box-border">
+          <div className="w-full flex flex-row items-center justify-center flex-wrap content-start gap-[30px] text-center text-xl text-darkslateblue">
+            <div className="flex-1 rounded-xl bg-lightsteelblue-300 flex flex-col items-center justify-start pt-[50px] pb-[19px] pl-6 pr-[23px] box-border gap-[39px] min-w-[262px] max-w-full mq450:gap-[19px] mq450:pt-8 mq450:pb-5">
               <div className="w-[350px] h-[371px] relative rounded-xl bg-lightsteelblue-300 hidden max-w-full" />
               <div className="self-stretch flex flex-row items-start justify-center py-0 pl-0 pr-px">
                 <div className="rounded-11xl bg-white flex flex-row items-start justify-start py-[29px] pl-[30px] pr-[29px] z-[1]">
