@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const HeroSection = ({ className = "" }) => {
   return (
     <div
-      className={`self-stretch flex flex-row items-start justify-start flex-wrap content-start gap-[23px] max-w-full text-center text-45xl text-darkslateblue font-poppins ${className}`}
+    className={`self-stretch flex flex-row items-center justify-center flex-wrap content-start gap-[23px] max-w-full text-center text-45xl text-darkslateblue font-poppins mx-auto ${className}`}
     >
       <div className="h-[360px] w-[188px] flex flex-col items-start justify-start pt-[172px] px-0 pb-0 box-border mq450:pt-28 mq450:box-border">
         <div className="self-stretch flex-1 relative [filter:blur(30px)] rounded-[50%] [background:radial-gradient(50%_50%_at_50%_50%,_rgba(143,_177,_232,_0.64),_rgba(28,_32,_72,_0.87))]" />

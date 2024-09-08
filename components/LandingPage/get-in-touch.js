@@ -24,7 +24,7 @@ const GetInTouch = ({ className = "" }) => {
                     Get In Touch
                   </h1>
                   <div className="self-stretch relative text-lg leading-[28px] text-darkgray text-left z-[1]">
-                    (some sentence)
+                    Contact us for any queries or feedback
                   </div>
                 </div>
                 <div className="w-[408px] flex flex-col items-start justify-start gap-[18px] max-w-full">

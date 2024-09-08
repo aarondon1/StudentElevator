@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 
 const Header = ({ className = "" }) => {
   return (
+    
     <div
       className={`w-[1225px] h-[107px] flex flex-row items-start justify-start py-0 px-14 box-border max-w-full text-center text-6xl text-darkslateblue font-poppins mq1350:pl-7 mq1350:pr-7 mq1350:box-border ${className}`}
     >
