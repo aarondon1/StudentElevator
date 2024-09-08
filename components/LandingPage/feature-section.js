@@ -36,7 +36,7 @@ const FeatureSection = ({ className = "" }) => {
               <div className="self-stretch flex flex-col items-start justify-start gap-[15px]">
                 <div className="self-stretch flex flex-row items-start justify-center py-0 px-5">
                   <h3 className="m-0 relative text-inherit leading-[32px] font-semibold font-[inherit] inline-block min-w-[41px] z-[1] mq450:text-base mq450:leading-[26px]">
-                    ddd
+                    Revise
                   </h3>
                 </div>
                 <div className="self-stretch relative text-sm leading-[28px] z-[1]">
@@ -139,7 +139,7 @@ const FeatureSection = ({ className = "" }) => {
             <div className="self-stretch flex flex-col items-start justify-start gap-[15px]">
               <div className="self-stretch flex flex-row items-start justify-center py-0 px-5">
                 <h3 className="m-0 relative text-inherit leading-[32px] font-semibold font-[inherit] inline-block min-w-[41px] z-[1] mq450:text-base mq450:leading-[26px]">
-                  ddd
+                  Some new feature
                 </h3>
               </div>
               <div className="self-stretch relative text-sm leading-[28px] z-[1]">
