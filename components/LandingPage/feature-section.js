@@ -36,7 +36,7 @@ const FeatureSection = ({ className = "" }) => {
               <div className="self-stretch flex flex-col items-start justify-start gap-[15px]">
                 <div className="self-stretch flex flex-row items-start justify-center py-0 px-5">
                   <h3 className="m-0 relative text-inherit leading-[32px] font-semibold font-[inherit] inline-block min-w-[41px] z-[1] mq450:text-base mq450:leading-[26px]">
-                    Master concepts
+                    Master Concepts
                   </h3>
                 </div>
                 <div className="self-stretch relative text-sm leading-[28px] z-[1]">
@@ -62,7 +62,7 @@ const FeatureSection = ({ className = "" }) => {
               <div className="self-stretch flex flex-col items-start justify-start gap-[15px]">
                 <div className="self-stretch flex flex-row items-start justify-start py-0 pl-[47px] pr-12 mq450:pl-5 mq450:pr-5 mq450:box-border">
                   <h3 className="m-0 relative text-inherit leading-[32px] font-semibold font-[inherit] z-[1] mq450:text-base mq450:leading-[26px]">
-                    Retain concepts
+                    Retain Concepts
                   </h3>
                 </div>
                 <div className="self-stretch relative text-sm leading-[28px] z-[1]">
@@ -84,13 +84,16 @@ const FeatureSection = ({ className = "" }) => {
                 </div>
               </div>
               <div className="self-stretch flex flex-col items-start justify-start gap-[15px]">
-                <div className="self-stretch flex flex-row items-start justify-start py-0 pl-[45px] pr-[46px] mq450:pl-5 mq450:pr-5 mq450:box-border">
-                  <h3 className="m-0 relative text-inherit leading-[32px] font-semibold font-[inherit] z-[1] mq450:text-base mq450:leading-[26px]">{`AI-Assisted Learning `}</h3>
-                </div>
-                <div className="self-stretch h-[83px] relative text-sm leading-[28px] inline-block shrink-0 z-[1]">
-                  -------
-                </div>
-              </div>
+  <div className="self-stretch flex flex-row items-start justify-start py-0 pl-[45px] pr-[46px] mq450:pl-5 mq450:pr-5 mq450:box-border">
+    <h3 className="m-0 relative text-inherit leading-[32px] font-semibold font-[inherit] z-[1] mq450:text-base mq450:leading-[26px]">
+      AI-Assisted Learning
+    </h3>
+  </div>
+  <div className="self-stretch h-[83px] relative text-sm leading-[28px] inline-block shrink-0 z-[1]">
+    Enhance your learning experience with AI-assisted tools. Benefit from personalized quizzes, flashcards, and tailored study plans to help you grasp concepts.
+  </div>
+</div>
+
             </div>
           </div>
         </div>
@@ -117,7 +120,7 @@ const FeatureSection = ({ className = "" }) => {
                 </h3>
               </div>
               <div className="self-stretch relative text-sm leading-[28px] z-[1]">
-                --------
+                Create a professional resume effortlessly with our AI-powered Resume Builder.
               </div>
             </div>
           </div>
@@ -137,11 +140,11 @@ const FeatureSection = ({ className = "" }) => {
             <div className="self-stretch flex flex-col items-start justify-start gap-[15px]">
               <div className="self-stretch flex flex-row items-start justify-center py-0 px-5">
                 <h3 className="m-0 relative text-inherit leading-[32px] font-semibold font-[inherit] inline-block min-w-[41px] z-[1] mq450:text-base mq450:leading-[26px]">
-                  ddd
+                  Career Path
                 </h3>
               </div>
               <div className="self-stretch relative text-sm leading-[28px] z-[1]">
-                --------
+                Track your career progress with our Personalized Career Timeline. Our tool helps you stay organized and focused on your career goals, providing insights and recommendations to help you advance in your field.
               </div>
             </div>
           </div>
@@ -163,7 +166,7 @@ const FeatureSection = ({ className = "" }) => {
                 <h3 className="m-0 relative text-inherit leading-[32px] font-semibold font-[inherit] z-[1] mq450:text-base mq450:leading-[26px]">{`Personal Planner `}</h3>
               </div>
               <div className="self-stretch relative text-sm leading-[28px] z-[1]">
-                ------
+                List your classes and organize your school and personal schedule effortlessly. Our AI feature creates an optimal schedule for you based on your time constraints and priorities.
               </div>
             </div>
           </div>

@@ -17,10 +17,7 @@ const HeroSection = ({ className = "" }) => {
             </h1>
             <div className="w-[855px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-lg text-lightsteelblue-200">
               <div className="w-[577px] relative leading-[28px] inline-block shrink-0 max-w-full">
-              Enhance your learning and academic journey with scientifically proven methods like 
-              the Feynman Technique and active recall, 
-              empowering you to excel in college and beyond, 
-              and paving the way for a successful future in your chosen field
+Student Elevator is your go-to hub for college success, offering tools for studying, resume building, and career development to help you excel.
               </div>
             </div>
           </div>
