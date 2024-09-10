@@ -1,4 +1,11 @@
-import { Button } from "@mui/material";
+
+import {
+  TextField,
+  InputAdornment,
+  Icon,
+  IconButton,
+  Button,
+} from "@mui/material";
 import PropTypes from "prop-types";
 
 const FeatureSection = ({ className = "" }) => {
@@ -192,29 +199,67 @@ const FeatureSection = ({ className = "" }) => {
                   <h1 className="m-0 self-stretch relative text-inherit leading-[65px] font-semibold font-[inherit] z-[2] mq800:text-19xl mq800:leading-[52px] mq450:text-10xl mq450:leading-[39px]">
                     Sign Up for our Waitlist
                   </h1>
+                 
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div className="w-[514px] flex flex-col items-start justify-start py-0 px-0 box-border min-w-[514px] max-w-full mq800:min-w-full mq1150:flex-1">
+          <div className="self-stretch flex flex-col items-start justify-start gap-[18px]">
+                    <TextField
+                      className="[border:none] bg-[transparent] self-stretch h-11 font-poppins text-sm text-darkgray"
+                      placeholder="Your Email"
+                      variant="outlined"
+                      sx={{
+                        "& fieldset": { border: "none" },
+                        "& .MuiInputBase-root": {
+                          height: "44px",
+                          backgroundColor: "rgba(174, 200, 230, 0.5)",
+                          borderRadius: "5px",
+                          fontSize: "14px",
+                        },
+                        "& .MuiInputBase-input": { color: "#9e9e9e" },
+                      }}
+                    />
+                    <TextField
+                      className="[border:none] bg-[transparent] self-stretch h-11 font-poppins text-sm text-darkgray"
+                      placeholder="Name"
+                      variant="outlined"
+                      sx={{
+                        "& fieldset": { border: "none" },
+                        "& .MuiInputBase-root": {
+                          height: "44px",
+                          backgroundColor: "rgba(174, 200, 230, 0.5)",
+                          borderRadius: "5px",
+                          fontSize: "14px",
+                        },
+                        "& .MuiInputBase-input": { color: "#9e9e9e" },
+                      }}
+                    />
+                   
+                  </div>
                   <Button
-                    className="w-[196px] h-11 z-[2]"
+                    className="w-36 h-11"
                     disableElevation
                     variant="contained"
                     sx={{
                       textTransform: "none",
                       color: "#fff",
                       fontSize: "14",
-                      background: "#000",
+                      background:
+                        "linear-gradient(92.51deg, rgba(11, 74, 164, 0.64), #925fe2)",
                       borderRadius: "5px",
-                      "&:hover": { background: "#000" },
-                      width: 196,
+                      "&:hover": {
+                        background:
+                          "linear-gradient(92.51deg, rgba(11, 74, 164, 0.64), #925fe2)",
+                      },
+                      width: 144,
                       height: 44,
                     }}
                   >
-                    Join the community
+                    Submit
                   </Button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="w-[514px] flex flex-col items-start justify-start py-0 px-0 box-border min-w-[514px] max-w-full mq800:min-w-full mq1150:flex-1">
-           
           </div>
         </div>
       </div>

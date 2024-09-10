@@ -2,6 +2,7 @@ import Header from "../components/LandingPage/Header";
 import HeroSection from "../components/LandingPage/HeroSection";
 import FeatureSection from "../components/LandingPage/feature-section";
 import Footer from "../components/LandingPage/Footer";
+import GetInTouch from "../components/LandingPage/get-in-touch"
 
 const LandingPage = () => {
   return (
@@ -15,7 +16,7 @@ const LandingPage = () => {
       </section>
       <FeatureSection />
       <section className="self-stretch flex flex-col items-start justify-start gap-[21px] max-w-full">
-
+        <GetInTouch />
         <Footer />
       </section>
     </div>
