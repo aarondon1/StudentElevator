@@ -32,7 +32,7 @@ const Header = ({ className = "" }) => {
               borderRadius: "5px",
               "&:hover": {
                 background:
-                  "linear-gradient(92.51deg, rgba(11, 74, 164, 0.64), #8154ff)",
+                  "linear-gradient(72.51deg, rgba(9, 44, 154, 0.64), #7134ff)",
               },
               height: 44,
             }}
