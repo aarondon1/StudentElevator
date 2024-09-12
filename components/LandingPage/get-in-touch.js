@@ -21,10 +21,10 @@ const GetInTouch = ({ className = "" }) => {
               <div className="self-stretch flex flex-col items-start justify-start gap-[66px] max-w-full mq800:gap-[33px] mq450:gap-4">
                 <div className="self-stretch flex flex-col items-start justify-start">
                   <h1 className="m-0 relative text-inherit leading-[80px] font-semibold font-[inherit] mq800:text-19xl mq800:leading-[64px] mq450:text-10xl mq450:leading-[48px]">
-                    Get In Touch
+                    Join the waitlist
                   </h1>
                   <div className="self-stretch relative text-lg leading-[28px] text-darkgray text-left z-[1]">
-                    (some sentence)
+                    Transform your academic journey!
                   </div>
                 </div>
                 <div className="w-[408px] flex flex-col items-start justify-start gap-[18px] max-w-full">
@@ -59,12 +59,7 @@ const GetInTouch = ({ className = "" }) => {
                         "& .MuiInputBase-input": { color: "#9e9e9e" },
                       }}
                     />
-                    <textarea
-                      className="[border:none] bg-lightsteelblue-300 h-[156px] w-auto [outline:none] self-stretch rounded-8xs flex flex-row items-start justify-start py-3 px-7 box-border font-poppins text-sm text-darkgray"
-                      placeholder="Name"
-                      rows={8}
-                      cols={20}
-                    />
+                   
                   </div>
                   <Button
                     className="w-36 h-11"
@@ -85,7 +80,7 @@ const GetInTouch = ({ className = "" }) => {
                       height: 44,
                     }}
                   >
-                    Get in Touch
+                    Submit
                   </Button>
                 </div>
               </div>
