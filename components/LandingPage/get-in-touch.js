@@ -74,7 +74,7 @@ const GetInTouch = ({ className = "" }) => {
                       borderRadius: "5px",
                       "&:hover": {
                         background:
-                          "linear-gradient(92.51deg, rgba(11, 74, 164, 0.64), #925fe2)",
+                          "linear-gradient(70.51deg, rgba(8, 44, 154, 0.64), #7134ff)",
                       },
                       width: 144,
                       height: 44,

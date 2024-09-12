@@ -125,22 +125,6 @@ const FeatureSection = ({ className = "" }) => {
           <div className="self-stretch flex flex-col items-start justify-start gap-[18px]">
             <TextField
               className="[border:none] bg-[transparent] self-stretch h-11 font-poppins text-sm text-darkgray"
-              placeholder="Your Email"
-              variant="outlined"
-              sx={{
-                "& fieldset": { border: "none" },
-                "& .MuiInputBase-root": {
-                  height: "44px",
-                  backgroundColor: "rgba(174, 200, 230, 0.5)",
-                  borderRadius: "5px",
-                  fontSize: "14px",
-                  paddingLeft: "15px", // Padding to move the input from the left edge
-                },
-                "& .MuiInputBase-input": { color: "#9e9e9e" },
-              }}
-            />
-            <TextField
-              className="[border:none] bg-[transparent] self-stretch h-11 font-poppins text-sm text-darkgray"
               placeholder="Name"
               variant="outlined"
               sx={{
@@ -152,7 +136,23 @@ const FeatureSection = ({ className = "" }) => {
                   fontSize: "14px",
                   paddingLeft: "15px", // Padding to move the input from the left edge
                 },
-                "& .MuiInputBase-input": { color: "#9e9e9e" },
+                "& .MuiInputBase-input": { color: "white" },
+              }}
+            />
+            <TextField
+              className="[border:none] bg-[transparent] self-stretch h-11 font-poppins text-sm text-darkgray"
+              placeholder="Email"
+              variant="outlined"
+              sx={{
+                "& fieldset": { border: "none" },
+                "& .MuiInputBase-root": {
+                  height: "44px",
+                  backgroundColor: "rgba(174, 200, 230, 0.5)",
+                  borderRadius: "5px",
+                  fontSize: "14px",
+                  paddingLeft: "15px", // Padding to move the input from the left edge
+                },
+                "& .MuiInputBase-input": { color: "white" },
               }}
             />
           </div>

@@ -25,6 +25,7 @@ const HeroSection = ({ className = "" }) => {
             <div className="flex-1 flex flex-col items-end justify-start gap-[34px] max-w-full mq450:gap-[17px]">
               <div className="w-[836px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
                 <Button
+
                   className="h-11 w-[166px]"
                   disableElevation
                   variant="contained"
@@ -37,7 +38,7 @@ const HeroSection = ({ className = "" }) => {
                     borderRadius: "5px",
                     "&:hover": {
                       background:
-                        "linear-gradient(92.51deg, rgba(11, 74, 164, 0.64), #8154ff)",
+                        "linear-gradient(72.51deg, rgba(9, 44, 154, 0.64), #7134ff)",
                     },
                     width: 166,
                     height: 44,
