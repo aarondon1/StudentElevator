@@ -136,7 +136,7 @@ const FeatureSection = ({ className = "" }) => {
                   fontSize: "14px",
                   paddingLeft: "15px", // Padding to move the input from the left edge
                 },
-                "& .MuiInputBase-input": { color: "#9e9e9e" },
+                "& .MuiInputBase-input": { color: "white" },
               }}
             />
             <TextField
@@ -152,7 +152,7 @@ const FeatureSection = ({ className = "" }) => {
                   fontSize: "14px",
                   paddingLeft: "15px", // Padding to move the input from the left edge
                 },
-                "& .MuiInputBase-input": { color: "#9e9e9e" },
+                "& .MuiInputBase-input": { color: "white" },
               }}
             />
           </div>
