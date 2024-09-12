@@ -125,7 +125,7 @@ const FeatureSection = ({ className = "" }) => {
           <div className="self-stretch flex flex-col items-start justify-start gap-[18px]">
             <TextField
               className="[border:none] bg-[transparent] self-stretch h-11 font-poppins text-sm text-darkgray"
-              placeholder="Your Email"
+              placeholder="Name"
               variant="outlined"
               sx={{
                 "& fieldset": { border: "none" },
@@ -141,7 +141,7 @@ const FeatureSection = ({ className = "" }) => {
             />
             <TextField
               className="[border:none] bg-[transparent] self-stretch h-11 font-poppins text-sm text-darkgray"
-              placeholder="Name"
+              placeholder="Email"
               variant="outlined"
               sx={{
                 "& fieldset": { border: "none" },
