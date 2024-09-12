@@ -1,4 +1,3 @@
-
 import {
   TextField,
   InputAdornment,
@@ -21,10 +20,7 @@ const FeatureSection = ({ className = "" }) => {
       <div className="w-full flex flex-row items-center justify-center pt-0 px-5 pb-[13px] box-border max-w-full text-left text-lg text-lightsteelblue-200">
         <div className="w-full max-w-[1110px] flex flex-col items-center justify-start gap-[27px]">
           <div className="w-full max-w-[595px] flex flex-row items-center justify-center py-0 px-[9px] box-border">
-            <div className="flex-1 relative leading-[28px] inline-block">
-              Further assist your learning and academic journey using our tools
-              specifically designed for you
-            </div>
+           
           </div>
           
           <div className="w-full flex flex-row items-center justify-center flex-wrap content-start gap-[30px] text-center text-xl text-darkslateblue">
