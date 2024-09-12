@@ -1,15 +1,10 @@
-import {
-  TextField,
-  InputAdornment,
-  Icon,
-  IconButton,
-  Button,
-} from "@mui/material";
+import { TextField, Button } from "@mui/material";
 import PropTypes from "prop-types";
 
 const GetInTouch = ({ className = "" }) => {
   return (
     <div
+      id="getInTouch" // Ensure this ID matches the Link target in Header.js
       className={`w-[1346px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-center text-29xl text-darkslateblue font-poppins ${className}`}
     >
       <div className="w-[1130px] flex flex-row items-start justify-between max-w-full gap-5 mq800:flex-wrap">
@@ -59,7 +54,6 @@ const GetInTouch = ({ className = "" }) => {
                         "& .MuiInputBase-input": { color: "#9e9e9e" },
                       }}
                     />
-                   
                   </div>
                   <Button
                     className="w-36 h-11"
@@ -69,12 +63,10 @@ const GetInTouch = ({ className = "" }) => {
                       textTransform: "none",
                       color: "#fff",
                       fontSize: "14",
-                      background:
-                        "linear-gradient(92.51deg, rgba(11, 74, 164, 0.64), #925fe2)",
+                      background: "linear-gradient(92.51deg, rgba(11, 74, 164, 0.64), #925fe2)",
                       borderRadius: "5px",
                       "&:hover": {
-                        background:
-                          "linear-gradient(70.51deg, rgba(8, 44, 154, 0.64), #7134ff)",
+                        background: "linear-gradient(70.51deg, rgba(8, 44, 154, 0.64), #7134ff)",
                       },
                       width: 144,
                       height: 44,

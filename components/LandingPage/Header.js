@@ -1,6 +1,7 @@
 import { Button } from "@mui/material";
 import PropTypes from "prop-types";
 
+
 const Header = ({ className = "" }) => {
   return (
     <div
@@ -19,26 +20,26 @@ const Header = ({ className = "" }) => {
               Home
             </a>
           </div>
-          <Button
-            className="h-11 flex-1"
-            disableElevation
-            variant="contained"
-            sx={{
-              textTransform: "none",
-              color: "#fff",
-              fontSize: "14",
-              background:
-                "linear-gradient(92.51deg, rgba(11, 74, 164, 0.64), #8154ff)",
-              borderRadius: "5px",
-              "&:hover": {
-                background:
-                  "linear-gradient(72.51deg, rgba(9, 44, 154, 0.64), #7134ff)",
-              },
-              height: 44,
-            }}
-          >
-            Join the Waitlist
-          </Button>
+         
+            <Button
+              className="h-11 flex-1"
+              disableElevation
+              variant="contained"
+              sx={{
+                textTransform: "none",
+                color: "#fff",
+                fontSize: "14",
+                background: "linear-gradient(92.51deg, rgba(11, 74, 164, 0.64), #8154ff)",
+                borderRadius: "5px",
+                "&:hover": {
+                  background: "linear-gradient(72.51deg, rgba(9, 44, 154, 0.64), #7134ff)",
+                },
+                height: 44,
+              }}
+            >
+              Join the Waitlist
+            </Button>
+          
         </div>
       </div>
     </div>
