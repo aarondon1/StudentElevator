@@ -6,8 +6,17 @@ import {
   Button,
 } from "@mui/material";
 import PropTypes from "prop-types";
-
+import React, {useState} from 'react'
 const FeatureSection = ({ className = "" }) => {
+  const [formData, setFormData]= useState({
+    name: '',
+    email: ''
+  }); 
+
+  const handleInputField = (e) =>{
+    const {name, value} = e.target
+    setFormData
+  }
   return (
     <section
       className={`self-stretch flex flex-col items-center justify-start pt-0 px-0 pb-[127px] box-border gap-[17px] max-w-full text-center text-29xl text-darkslateblue font-poppins mq800:pb-[35px] mq1350:pb-[54px] ${className}`}
@@ -124,6 +133,7 @@ const FeatureSection = ({ className = "" }) => {
         <div className="w-[514px] flex flex-col items-start justify-start py-0 px-[30px] box-border min-w-[514px] max-w-full mq800:min-w-full mq1150:flex-1">
           <div className="self-stretch flex flex-col items-start justify-start gap-[18px]">
             <TextField
+              
               className="[border:none] bg-[transparent] self-stretch h-11 font-poppins text-sm text-darkgray"
               placeholder="Your Email"
               variant="outlined"
