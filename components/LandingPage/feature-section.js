@@ -13,9 +13,17 @@ const FeatureSection = ({ className = "" }) => {
     email: ''
   }); 
 
-  const handleInputField = (e) =>{
-    const {name, value} = e.target
-    setFormData
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;  // Extract name and value
+    setFormData((prevData) => ({
+      ...prevData,      // Keep previous state values
+      [name]: value,    // Update specific field
+    }));
+  };
+
+  const handleSubmit= (e)=>{
+    e.preventDefault();
+    console.log(formData)
   }
   return (
     <section
@@ -133,9 +141,11 @@ const FeatureSection = ({ className = "" }) => {
         <div className="w-[514px] flex flex-col items-start justify-start py-0 px-[30px] box-border min-w-[514px] max-w-full mq800:min-w-full mq1150:flex-1">
           <div className="self-stretch flex flex-col items-start justify-start gap-[18px]">
             <TextField
-              
+              name ="name"
+              value = {formData.name}
               className="[border:none] bg-[transparent] self-stretch h-11 font-poppins text-sm text-darkgray"
               placeholder="Name"
+              onChange={handleInputChange}  // Call handler on change
               variant="outlined"
               sx={{
                 "& fieldset": { border: "none" },
@@ -150,8 +160,11 @@ const FeatureSection = ({ className = "" }) => {
               }}
             />
             <TextField
+              name = "email"
+              value={formData.email}  // Bind value to state
               className="[border:none] bg-[transparent] self-stretch h-11 font-poppins text-sm text-darkgray"
               placeholder="Email"
+              onChange={handleInputChange}  // Call handler on change
               variant="outlined"
               sx={{
                 "& fieldset": { border: "none" },
