@@ -17,7 +17,6 @@ const Header = ({ className = "" }) => {
         <div className="w-[242px] flex flex-row items-start justify-start gap-[34px] text-sm text-darkgray mq800:hidden">
           <div className="flex flex-col items-start justify-start pt-2 px-0 pb-0">
             <a className="[text-decoration:none] relative leading-[28px] text-[inherit] inline-block min-w-[42px]">
-              Home
             </a>
           </div>
          
@@ -37,7 +36,7 @@ const Header = ({ className = "" }) => {
                 height: 44,
               }}
             >
-              Join the Waitlist
+              Home
             </Button>
           
         </div>

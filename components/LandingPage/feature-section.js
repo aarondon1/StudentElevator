@@ -31,6 +31,7 @@ const FeatureSection = ({ className = "" }) => {
           <div className="w-full flex flex-row items-center justify-center flex-wrap content-start gap-[30px] text-center text-xl text-darkslateblue">
             {/* Master Concepts */}
             
+            
             <div className="flex-1 rounded-xl bg-lightsteelblue-300 flex flex-col items-center justify-start pt-[30px] pb-[30px] px-6 box-border gap-[10px] min-w-[262px] max-w-[320px] min-h-[400px] max-h-[400px]">
               <div className="rounded-full bg-white flex items-center justify-center p-[20px]">
                 <img className="h-[46px] w-[46px]" src="/group-102.svg" alt="Master Concepts" />
