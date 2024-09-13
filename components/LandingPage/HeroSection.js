@@ -1,5 +1,6 @@
 import { Button } from "@mui/material";
 import PropTypes from "prop-types";
+import { Link } from "react-scroll";
 
 const HeroSection = ({ className = "" }) => {
   return (
@@ -24,6 +25,13 @@ const HeroSection = ({ className = "" }) => {
           <div className="self-stretch flex flex-row items-start justify-start py-0 pl-0.5 pr-[3px] box-border max-w-full">
             <div className="flex-1 flex flex-col items-end justify-start gap-[34px] max-w-full mq450:gap-[17px]">
               <div className="w-[836px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
+                <Link 
+            to="JoinOurWait"  // Ensure this matches the ID in GetInTouch.js
+            smooth={true}    // Enables smooth scrolling
+            duration={500}   // Duration of the scroll
+            spy={true}       // Keeps track of whether the target section is currently active
+            offset={-100}    // Adjust this offset if needed
+          >
                 <Button
 
                   className="h-11 w-[166px]"
@@ -46,6 +54,7 @@ const HeroSection = ({ className = "" }) => {
                 >
                   Join the Waitlist
                 </Button>
+                </Link>
               </div>
             </div>
           </div>

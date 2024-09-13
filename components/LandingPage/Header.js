@@ -1,6 +1,7 @@
 import { Button } from "@mui/material";
 import PropTypes from "prop-types";
 
+
 const Header = ({ className = "" }) => {
   return (
     <div
@@ -16,29 +17,28 @@ const Header = ({ className = "" }) => {
         <div className="w-[242px] flex flex-row items-start justify-start gap-[34px] text-sm text-darkgray mq800:hidden">
           <div className="flex flex-col items-start justify-start pt-2 px-0 pb-0">
             <a className="[text-decoration:none] relative leading-[28px] text-[inherit] inline-block min-w-[42px]">
-              Home
             </a>
           </div>
-          <Button
-            className="h-11 flex-1"
-            disableElevation
-            variant="contained"
-            sx={{
-              textTransform: "none",
-              color: "#fff",
-              fontSize: "14",
-              background:
-                "linear-gradient(92.51deg, rgba(11, 74, 164, 0.64), #8154ff)",
-              borderRadius: "5px",
-              "&:hover": {
-                background:
-                  "linear-gradient(72.51deg, rgba(9, 44, 154, 0.64), #7134ff)",
-              },
-              height: 44,
-            }}
-          >
-            Join the Waitlist
-          </Button>
+         
+            <Button
+              className="h-11 flex-1"
+              disableElevation
+              variant="contained"
+              sx={{
+                textTransform: "none",
+                color: "#fff",
+                fontSize: "14",
+                background: "linear-gradient(92.51deg, rgba(11, 74, 164, 0.64), #8154ff)",
+                borderRadius: "5px",
+                "&:hover": {
+                  background: "linear-gradient(72.51deg, rgba(9, 44, 154, 0.64), #7134ff)",
+                },
+                height: 44,
+              }}
+            >
+              Home
+            </Button>
+          
         </div>
       </div>
     </div>

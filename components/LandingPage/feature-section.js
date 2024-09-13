@@ -28,20 +28,27 @@ const FeatureSection = ({ className = "" }) => {
   return (
     <section
       className={`self-stretch flex flex-col items-center justify-start pt-0 px-0 pb-[127px] box-border gap-[17px] max-w-full text-center text-29xl text-darkslateblue font-poppins mq800:pb-[35px] mq1350:pb-[54px] ${className}`}
+      
     >
+
       <div className="w-full flex flex-row items-center justify-center py-0 px-5 box-border max-w-full">
+        
         <h1 className="m-0 relative text-inherit leading-[80px] font-semibold font-[inherit] mq800:text-19xl mq800:leading-[64px] mq450:text-10xl mq450:leading-[48px]">
           Our Tools and Features
         </h1>
       </div>
       <div className="w-full flex flex-row items-center justify-center pt-0 px-5 pb-[13px] box-border max-w-full text-left text-lg text-lightsteelblue-200">
         <div className="w-full max-w-[1110px] flex flex-col items-center justify-start gap-[27px]">
+          
           <div className="w-full max-w-[595px] flex flex-row items-center justify-center py-0 px-[9px] box-border">
+            
            
           </div>
           
           <div className="w-full flex flex-row items-center justify-center flex-wrap content-start gap-[30px] text-center text-xl text-darkslateblue">
             {/* Master Concepts */}
+            
+            
             <div className="flex-1 rounded-xl bg-lightsteelblue-300 flex flex-col items-center justify-start pt-[30px] pb-[30px] px-6 box-border gap-[10px] min-w-[262px] max-w-[320px] min-h-[400px] max-h-[400px]">
               <div className="rounded-full bg-white flex items-center justify-center p-[20px]">
                 <img className="h-[46px] w-[46px]" src="/group-102.svg" alt="Master Concepts" />
@@ -113,14 +120,17 @@ const FeatureSection = ({ className = "" }) => {
 
 
      
-      <div className="self-stretch bg-lightsteelblue-300 flex flex-col items-center justify-center pt-28 px-5 pb-[83px] box-border gap-[41px] max-w-full mq800:gap-5 mq800:pt-[73px] mq800:pb-[54px] mq800:box-border">
-        <div className="w-[1440px] h-[725px] relative bg-lightsteelblue-300 hidden max-w-full" />
-        <div className="w-full flex flex-row items-center justify-center max-w-full">
+      <div  className="self-stretch bg-lightsteelblue-300 flex flex-col items-center justify-center pt-28 px-5 pb-[83px] box-border gap-[41px] max-w-full mq800:gap-5 mq800:pt-[73px] mq800:pb-[54px] mq800:box-border">
+        
+        <div  className="w-[1440px] h-[725px] relative bg-lightsteelblue-300 hidden max-w-full" />
+        
+        <div id="getInTouch" className="w-full flex flex-row items-center justify-center max-w-full">
+          
           <h1 className="m-0 text-center text-inherit leading-[64px] font-semibold font-[inherit] z-[1] mq800:text-19xl mq800:leading-[51px] mq450:text-10xl mq450:leading-[38px]">
             Grow and be Career Ready
           </h1>
         </div>
-        <div className="rounded-21xl [background:linear-gradient(135.66deg,_#aec8e6,_#8154ff)] flex flex-row items-center justify-center pt-[37px] pb-[19px] pl-[93px] pr-[93px] box-border [row-gap:20px] max-w-full z-[1] text-xl mq1150:flex-wrap mq1150:pl-5 mq1150:pr-5 mq1150:box-border mq450:pt-6 mq450:pb-5 mq450:box-border">
+        <div id="JoinOurWait" className="rounded-21xl [background:linear-gradient(135.66deg,_#aec8e6,_#8154ff)] flex flex-row items-center justify-center pt-[37px] pb-[19px] pl-[93px] pr-[93px] box-border [row-gap:20px] max-w-full z-[1] text-xl mq1150:flex-wrap mq1150:pl-5 mq1150:pr-5 mq1150:box-border mq450:pt-6 mq450:pb-5 mq450:box-border">
           <div className="h-[425px] w-[1110px] relative rounded-21xl [background:linear-gradient(135.66deg,_#aec8e6,_#8154ff)] hidden max-w-full" />
           <div className="w-[503px] flex flex-col items-center justify-center pt-0 px-0 pb-[53px] box-border min-w-[503px] min-h-[307px] max-w-full mq800:min-w-full mq1150:flex-1">
             <div className="self-stretch flex flex-col items-center justify-center gap-3 max-w-full">
@@ -139,6 +149,7 @@ const FeatureSection = ({ className = "" }) => {
 
         {/* TextField and Button section */}
         <div className="w-[514px] flex flex-col items-start justify-start py-0 px-[30px] box-border min-w-[514px] max-w-full mq800:min-w-full mq1150:flex-1">
+          
           <div className="self-stretch flex flex-col items-start justify-start gap-[18px]">
             <TextField
               name ="name"
